@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #fff;
+}
+
+body {
+  width: 960px;
+  height: auto;
+  margin: auto;
+}
+
+.top {
+  padding-top: 200px;
+}
+
+section {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.button {
+  width: 24%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/*-------------Transition Buttons------------------*/
+
+.btn-tr:link,
+.btn-tr:active {
+  padding: 20px 60px;
+  border-radius: 100px;
+}
+
+.btn-1:link,
+.btn-1:visited {
+  background-color: #fff;
+  border: 2px solid #25fea9;
+  color: #25fea9;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-1:hover,
+.btn-1:active {
+  background-color: #25fea9;
+  border: 2px solid #25fea9;
+  color: #fff;
+}
+
+.btn-2:link,
+.btn-2:visited {
+  background-color: #fff;
+  border: 2px solid #05b9ff;
+  color: #05b9ff;
+  transition: background-color 0.5s, border 0s, color 1s;
+}
+
+.btn-2:hover,
+.btn-2:active {
+  background-color: #05b9ff;
+  border: 2px solid #05b9ff;
+  color: #fff;
+}
+
+.btn-3:link,
+.btn-3:visited {
+  background-color: #fff;
+  border: 2px solid #ca49ff;
+  color: #ca49ff;
+  transition: background-color 0.8s, border 0s, color 1s;
+
+}
+
+.btn-3:hover,
+.btn-3:active {
+  background-color: #ca49ff;
+  border: 2px solid #ca49ff;
+  color: #fff;
+}
+
+.btn-4:link,
+.btn-4:visited {
+  background-color: #fff;
+  border: 2px solid #FE4365;
+  color: #FE4365;
+  transition: background-color 0.2s, border 0s, color 1.8s;
+}
+
+.btn-4:hover,
+.btn-4:active {
+  background-color: #FE4365;
+  border: 2px solid #FE4365;
+  color: #fff;
+}
+
+/*-------------Expand Buttons------------------*/
+
+.btn-ex,
+.btn-ex {
+  padding: 20px 60px;
+  border-radius: 100px;
+  transition: background-color 0.5s, border 0s, color 1s;
+}
+
+.btn-5:link,
+.btn-5:visited {
+  background-color: #fff;
+  border: 2px solid #25fea9;
+  color: #25fea9;
+}
+
+.btn-5:hover,
+.btn-5:active {
+  background-color: #25fea9;
+  border: 2px solid #25fea9;
+  color: #fff;
+}
+
+.btn-6:link,
+.btn-6:visited {
+  background-color: #fff;
+  border: 2px solid #05b9ff;
+  color: #05b9ff;
+}
+
+.btn-6:hover,
+.btn-6:active {
+  background-color: #05b9ff;
+  border: 2px solid #05b9ff;
+  color: #fff;
+  padding: 25px 65px;
+}
+
+.btn-7:link,
+.btn-7:visited {
+  background-color: #fff;
+  border: 2px solid #ca49ff;
+  color: #ca49ff;
+}
+
+.btn-7:hover,
+.btn-7:active {
+  background-color: #ca49ff;
+  border: 2px solid #ca49ff;
+  color: #fff;
+  padding: 35px 70px;
+}
+
+.btn-8:link,
+.btn-8:visited {
+  background-color: #fff;
+  border: 2px solid #FE4365;
+  color: #FE4365;
+}
+
+.btn-8:hover,
+.btn-8:active {
+  background-color: #FE4365;
+  border: 2px solid #FE4365;
+  color: #fff;
+  padding: 45px 90px;
+}
+
+/*-------------Reverse Buttons------------------*/
+
+.btn-re,
+.btn-re {
+  padding: 20px 60px;
+  border-radius: 2px;
+  transition: background-color 0.2s, border 0s, color 0.2s;
+}
+
+.btn-9:link,
+.btn-9:visited {
+  background-color: #25fea9;
+  border: 2px solid #25fea9;
+  color: #fff;
+}
+
+.btn-9:hover,
+.btn-9:active {
+  background-color: #fff;
+  border: 2px solid #25fea9;
+  color: #25fea9;
+}
+
+.btn-10:link,
+.btn-10:visited {
+  background-color: #05b9ff;
+  border: 2px solid #05b9ff;
+  color: #fff;
+}
+
+.btn-10:hover,
+.btn-10:active {
+  background-color: #fff;
+  border: 2px solid #05b9ff;
+  color: #05b9ff;
+  border-radius: 15px;
+}
+
+.btn-11:link,
+.btn-11:visited {
+  background-color: #ca49ff;
+  border: 2px solid #ca49ff;
+  color: #fff;
+
+}
+
+.btn-11:hover,
+.btn-11:active {
+  background-color: #fff;
+  border: 2px solid #ca49ff;
+  color: #ca49ff;
+  border-radius: 25px;
+}
+
+.btn-12:link,
+.btn-12:visited {
+  background-color: #FE4365;
+  border: 2px solid #FE4365;
+  color: #fff;
+}
+
+.btn-12:hover,
+.btn-12:active {
+  background-color: #fff;
+  border: 2px solid #FE4365;
+  color: #FE4365;
+  border-radius: 50px;
+}
+
+
+.tick:link,
+.tick:visited {
+  padding:30px;
+  background-color: #25fea9;
+  border-radius: 50px;
+  display: inline-block;
+  color: #fff;
+}
+
+.tick:hover,
+.tick:active {
+  padding:30px 75px;
+  background-color: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  color: #25fea9;
+  border: 2px solid #25fea9;
+}
